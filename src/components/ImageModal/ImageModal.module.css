@@ -1,0 +1,29 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 44, 199, 0.295);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
