@@ -9,7 +9,7 @@ interface APIdata {
 }
 
 export const fetchGallery = async (search: string, currentPage: number, perPage = 15): Promise<APIdata> => {
-  const response = await axios.get('/search/photos', {
+  const response = await axios.get<APIdata>('/search/photos', {
     headers: {
       'Authorization': 'Client-ID TMPNIX1S3Ts1RRLOPkjLPZT27lY3O1xPfwE4RAmVJp0',
       'Accept-Version': 'v1',
